@@ -1,64 +1,37 @@
-# Bank-Management-System
+# Bank Management System
 
-This is a Bank Management System Database Project.
+## Abstract
 
+The Bank Management System is a database project aimed at managing customer transactions and services within a bank. This project demonstrates the use of CRUD (Create, Read, Update, Delete) operations in MySQL to maintain records of customers, transactions, services, and bank employees.
 
+## Modules
 
-Abstract: The main aim of Bank Management Mini DBMS project is to keep record of customer transactions in the bank. 
+### 1. Account Holder
+- Manages customer details and accounts within the bank.
 
-We aim to demonstrate the use of create, read, update and delete MySQL operations through this project.
+### 2. Transaction
+- Tracks transactions made by customers, including credit, debit, and balance inquiries.
 
-Firstly, employee registration is done in the concern bank branch. 
+### 3. Services
+- Provides additional services such as insurance, loans, and bill payments for customers.
 
-Branch employee creates customer account in the bank, then customer can credit amount, debit amount and check balance. 
+### 4. Branch/Employee
+- Manages details of bank branches, managers, and employees.
 
-Customer can even use different services like insurance, loan, bill payments etc.
+## Software Requirements
 
+- **Operating System**: Windows XP/7/10.
+- **Language**: Java (JDK 8 version).
+- **IDE**: Netbeans 8.2 / Eclipse.
+- **Database**: MySQL (Install XAMPP).
 
+## Technologies Used
 
+- JavaFX
+- MySQL
 
-Modules:
+## Installation and Setup
 
-
-Bank Management Mini DBMS Project contains 4 modules:
-
-
-
-1.	Account Holder: As the name suggests, a record of customer details.
-
-2.	Transaction: Transactions to be made by the customer (credit amount, debit etc).
-
-3.	Services: Additional services that customer may want like (insurance, loan etc.).
-
-4.	Branch/Employee : Manager/Employee details of the concern bank.
-
-
-
-
-SOFTWARE REQUIREMENTS:
-
-
-
-•	Operating system 		: 	Windows XP/7/10.
-
-•	Language		       	:	  Java ( Install JDK 8 version)
-
-•	IDE				          :	  Netbeans 8.2 / Eclipse
-
-•	Database			      :	  MYSQL (Install XAMPP)
-
-
-
-
-
-
-Technologies used:
-
-
-
-•	JavaFX
-
-•	Mysql
-
-
-
+1. **Clone the repository:**
+   ```sh
+   git clone https://github.com/sanjaikrp/Bank-Management-System.git
